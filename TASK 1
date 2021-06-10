@@ -1,0 +1,138 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Copy of TASK 1",
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/biggestadventure/LEARN.PY/blob/main/TASK%201\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "q-yWxfWESiQo"
+      },
+      "source": [
+        "1.Write a program that uses input to prompt a user for their name and then welcomes them."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "9ikpRxqMSxu0",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "debce539-c3da-44a1-eac6-ac115972cb17"
+      },
+      "source": [
+        "#please provide your answer here below this line\n",
+        "name = input('Enter your name:')\n",
+        "print('Welcome!',name)"
+      ],
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter your name:salman\n",
+            "Welcome! salman\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "Ay5OdxguS-2Z"
+      },
+      "source": [
+        "2.Write a program which prompts the user for a Celsius temperature, convert the temperature to Fahrenheit, and print out the converted temperature."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "MMv2yWNtTgEu",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "ffd7d7e0-0999-4541-d507-1cd5e320dc28"
+      },
+      "source": [
+        "#please provide your answer here below this line\n",
+        "c = int(input(\"Enter temperature in celsius:\"))\n",
+        "f = (c*9/5)+32\n",
+        "print(\"temperature in fahranheit:\",f)"
+      ],
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter temperature in celsius:100\n",
+            "temperature in fahranheit: 212.0\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "v6O1a198TpNd"
+      },
+      "source": [
+        "3.Write a Python program to convert degree to radian."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "27Jj4_D0UQBA",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "66571f91-2c8c-412a-8af2-297a4e6d9d22"
+      },
+      "source": [
+        "#please provide your answer here below this line\n",
+        "pi = 22/7\n",
+        "deg = int(input(\"Enter value in degree: \"))\n",
+        "rad = deg*pi/180\n",
+        "print(deg,\"in radian is\",rad)"
+      ],
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter value in degree: 100\n",
+            "100 in radian is 1.746031746031746\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
